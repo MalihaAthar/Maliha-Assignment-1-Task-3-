@@ -1,2 +1,0 @@
-mysql -u awkologi -p compbiol -e  
-'SELECT a.gene, a.function, a.metabolism, b.gene from annotation a inner join annotation b on a.metabolism=b.metabolism where a.gene<>b.gene';
